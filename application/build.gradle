@@ -1,0 +1,7 @@
+apply plugin: 'application'
+mainClassName = 'de.mkammerer.application.ApplicationKt'
+
+dependencies {
+    compile project(':module1')
+    compile project(':module2')
+}
